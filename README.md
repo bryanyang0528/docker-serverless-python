@@ -1,28 +1,11 @@
 # marcelocorreia/serverless
 
-Docker image with [Serverless Framework](https://serverless.com/) + [AWS CLI](https://aws.amazon.com/cli/) + Goodies
-
-##### Github [https://github.com/marcelocorreia/docker-terraform](https://github.com/marcelocorreia/docker-terraform)
- 
-### Packages
-    - ca-certificates 
-    - update-ca-certificates
-    - curl
-    - unzip 
-    - bash 
-    - python 
-    - py-pip 
-    - openssh 
-    - git 
-    - make 
-    - tzdata
-    - awscli (via PIP)  
-    - jq
- 
-## INFO
-- Workdir is set to /opt/workspace
-- Github: [https://github.com/marcelocorreia/docker-serverless](https://github.com/marcelocorreia/docker-serverless)
-- [Integration](#) with [Concourse CI](http://concourse.ci/) 
+Docker image with [Serverless Framework](https://serverless.com/) 
++ [AWS CLI](https://aws.amazon.com/cli/)
++ [Serverless Python Requirements](https://github.com/UnitedIncome/serverless-python-requirements)
++ Python
++ Docker
++ Goodies
 
 ## Usage
 ```bash
