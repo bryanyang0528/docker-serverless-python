@@ -18,7 +18,7 @@ RUN apk add --no-cache --update \
     pip3 install --upgrade pip setuptools && \
     if [ ! -e /usr/bin/pip ]; then ln -s pip3 /usr/bin/pip ; fi && \
     if [[ ! -e /usr/bin/python ]]; then ln -sf /usr/bin/python3 /usr/bin/python; fi && \
-    pip install awscli
+    pip install awscli virtualenv
 
 RUN mkdir -p /opt/workspace
 RUN rm /var/cache/apk/*
