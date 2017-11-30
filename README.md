@@ -1,4 +1,4 @@
-# marcelocorreia/serverless
+# bryanyang0528/docker-serverless-python
 
 Docker image with [Serverless Framework](https://serverless.com/) 
 + [AWS CLI](https://aws.amazon.com/cli/)
